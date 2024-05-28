@@ -1,0 +1,1495 @@
+"Datasources","End DateTime","Process Description","Queue DateTime","Start DateTime","Status","Catalog","Category","Classification Name","Column Name","Comments","Confidence score","DB Name","Data-Source Name","Data-Source Type","Data-Source URL","Full Datasource Description","Host","Port","Rule Description","Schema","Service Name","Table Name"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","startDateTime","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData startDateTime
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","deviceDateTime","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData deviceDateTime
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","stopDateTime","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData stopDateTime
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","identityUsername","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData identityUsername
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","identityGroupName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData identityGroupName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","eventName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData eventName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","identityNetBiosName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData identityNetBiosName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","offenseName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData offenseName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","protocolName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData protocolName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","deviceName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData deviceName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","domainName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData domainName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","identityHostname","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData identityHostname
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","userName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData userName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","eventCollectorName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData eventCollectorName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","offenseName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData offenseName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: fname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%F%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","fname","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","protocolName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData protocolName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","eventCollectorName","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData eventCollectorName
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","sourcMACAddress","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData sourcMACAddress
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","destinationMACAddress","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData destinationMACAddress
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","qid","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.EventData qid
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Search For Data: -democustom
+TABLE_TYPE='TABLE', DATA_TYPE='NUMBER,TEXT', SEARCH_VALUE_PATTERN='^[0-8][0-9]{2}[- ]?[0-9][1-9][- ]?[0-9]{4}[ ]{0,20}$', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add to gdpr itself
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","	-democustom","dbo","","EventData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Storage Time","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Storage Time
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Storage Date","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Storage Date
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","CPU_Usage (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events CPU_Usage (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Image (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Image (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ImageName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ImageName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ImageTempPath (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ImageTempPath (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ParentImage (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ParentImage (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ParentImageName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ParentImageName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC SourceImage (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC SourceImage (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC SourceImageTempPath (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC SourceImageTempPath (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Target Image Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Target Image Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC TargetImage (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC TargetImage (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC User Agent (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC User Agent (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Events per Second Coalesced - Average 1 Min (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Events per Second Coalesced - Average 1 Min (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Events per Second Raw - Average 1 Min (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Events per Second Raw - Average 1 Min (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Flows per Second - Average 15 Min (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Flows per Second - Average 15 Min (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Message (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Message (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","MessageID (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events MessageID (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","SourceImage (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events SourceImage (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Storage Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Storage Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Target Image Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Target Image Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","TargetImage (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events TargetImage (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: age
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%AGE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","age","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Storage Date","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Storage Date
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Log Source Date","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Log Source Date
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Start Date","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Start Date
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Birth Date (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Birth Date (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Thycotic Date_Time (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Thycotic Date_Time (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Birth Date (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Birth Date (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: birth
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%BIRTH%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","birth","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Destination Asset Name","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Destination Asset Name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Source Asset Name","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Source Asset Name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Event Name","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Event Name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Identity Username","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Identity Username
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Identity Host Name","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Identity Host Name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Identity Net Bios Name","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Identity Net Bios Name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Identity Group Name","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Identity Group Name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Username","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Username
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Account Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Account Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","AccountName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events AccountName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Alert Sql User Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Alert Sql User Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","analyticName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events analyticName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Analyzer Host Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Analyzer Host Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Application Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Application Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","AVT-App-NAme (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events AVT-App-NAme (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Client Hostname (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Client Hostname (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Component Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Component Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Computer Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Computer Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","CRE Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events CRE Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Database Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Database Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","DD name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events DD name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Destination Host Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Destination Host Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Destination Hostname (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Destination Hostname (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ImageName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ImageName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ParentImageName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ParentImageName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC PipeName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC PipeName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Service Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Service Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ServiceFileName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ServiceFileName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ShareName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ShareName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Target Account Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Target Account Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Target Image Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Target Image Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Threat Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Threat Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Group Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Group Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Hostname (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Hostname (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Initiator User Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Initiator User Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Installer Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Installer Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","modelName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events modelName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Module Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Module Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Object Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Object Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","ObjectName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events ObjectName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Old data set name  (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Old data set name  (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","OS Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events OS Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Parent Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Parent Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Parent Process Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Parent Process Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","PipeName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events PipeName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Policy Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Policy Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Process Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Process Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Role Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Role Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Rule Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Rule Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Service Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Service Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","ServiceFileName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events ServiceFileName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","SNA Global Network Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events SNA Global Network Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Source Host Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Source Host Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Source Hostname (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Source Hostname (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Storage Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Storage Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Target Image Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Target Image Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Target User Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Target User Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Target Username (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Target Username (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","TaskName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events TaskName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Threat Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Threat Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Thycotic Container Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Thycotic Container Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Thycotic Event Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Thycotic Event Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Thycotic Product Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Thycotic Product Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Thycotic Resource name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Thycotic Resource name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Thycotic UserName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Thycotic UserName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Transaction Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Transaction Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","User Display Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events User Display Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","User Display Name Label (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events User Display Name Label (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Vendor Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Vendor Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","VirusName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events VirusName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: fname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%F%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","fname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ServiceFileName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ServiceFileName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: fname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%F%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","fname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: fname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%F%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","fname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Installer Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Installer Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: fname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%F%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","fname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Parent Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Parent Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: fname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%F%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","fname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","ServiceFileName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events ServiceFileName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: fname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%F%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","fname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Alert Sql User Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Alert Sql User Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","analyticName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events analyticName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Analyzer Host Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Analyzer Host Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Application Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Application Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Client Hostname (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Client Hostname (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC ServiceFileName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC ServiceFileName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Installer Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Installer Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","modelName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events modelName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Module Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Module Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Old data set name  (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Old data set name  (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Parent Filename (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Parent Filename (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Policy Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Policy Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Role Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Role Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Rule Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Rule Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","ServiceFileName (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events ServiceFileName (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","SNA Global Network Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events SNA Global Network Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","User Display Name (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events User Display Name (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","User Display Name Label (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events User Display Name Label (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Destination Address","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Destination Address
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Source Address","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Source Address
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","EC StartAddress (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events EC StartAddress (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","StartAddress (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events StartAddress (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Thycotic Source IP Address (custom)","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Thycotic Source IP Address (custom)
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Source Geographic Country/Region","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Source Geographic Country/Region
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: country
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%COUNTRY%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","country","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","Destination Geographic Country/Region","Date: 2024-04-09 15:38:13
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.events Destination Geographic Country/Region
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: country
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%COUNTRY%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","country","dbo","","events"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","birthdate","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI birthdate
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","cc_expiredate","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI cc_expiredate
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: date
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%DATE%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","date","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","birthdate","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI birthdate
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: birth
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%BIRTH%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","birth","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","gender","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI gender
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: gender
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%GENDER%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","gender","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","maiden name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI maiden name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","last name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI last name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","first name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI first name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","first name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI first name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: fname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%F%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","fname","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","last name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI last name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: lname
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%L%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","lname","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","address","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI address
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","city","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI city
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: city
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%CITY%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","city","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","SSN","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI SSN
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Search For Data: -democustom
+TABLE_TYPE='TABLE', DATA_TYPE='NUMBER,TEXT', SEARCH_VALUE_PATTERN='^[0-8][0-9]{2}[- ]?[0-9][1-9][- ]?[0-9]{4}[ ]{0,20}$', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add to gdpr itself
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","	-democustom","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","CCN","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI CCN
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Search For Data: guardium://CREDIT_CARD credit_card_rule_35_04092024033507
+TABLE_TYPE='TABLE', DATA_TYPE='NUMBER,TEXT', MINIMUM_LENGTH='16', SEARCH_VALUE_PATTERN='^[0-9]{4}[-, ]?[0-9]{4}[-, ]?[0-9]{4}[-, ]?[0-9]{4}[ ]*$', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","guardium://CREDIT_CARD credit_card_rule_35_04092024033507","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","SSN","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI SSN
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","gender","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI gender
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","birthdate","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI birthdate
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","maiden name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI maiden name
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","last name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI last name
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","first name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI first name
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","address","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI address
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","city","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI city
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","state","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI state
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","zip","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI zip
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","phone","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI phone
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","email","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI email
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","cc_type","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI cc_type
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","CCN","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI CCN
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","cc_cvc","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI cc_cvc
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","Sensitive Data","PCI","cc_expiredate","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.PCI cc_expiredate
+Category: 'Sensitive Data' Classification: 'PCI' Comprehensive: true
+Rule: Search For Data: customCCN
+TABLE_TYPE='TABLE', TABLE_NAME_LIKE='%PCI', DATA_TYPE='NUMBER,TEXT', SKIP_EMPTY_NULL='false', SHOW_UNIQUE_VALUES='false', CONFIDENCE_SCORE='false'
+Action: Add to Group of Objects: -add
+Add Member Type='FULLNAME', Replace Group Content='false', Object Group='Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","customCCN","dbo","","PCI"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","name","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.UserData name
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: name
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%NAME%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","name","dbo","","UserData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","address","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.UserData address
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: addr
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%ADDR%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","addr","dbo","","UserData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","country","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.UserData country
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: country
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%COUNTRY%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","country","dbo","","UserData"
+"MS SQL SERVER MSSQL","2024-04-09 15:38:15","	-DemoDiscovery","2024-04-09 15:38:06","2024-04-09 15:38:12","COMPLETED","GDP","GDPR","GDPR","postalZip","Date: 2024-04-09 15:38:14
+Datasource: MS SQL SERVER 10.221.192.30: 53083 GDP 
+Object: GDP.dbo.UserData postalZip
+Category: 'GDPR' Classification: 'GDPR' Comprehensive: true
+Rule: Catalog Search: postal
+TABLE_TYPE='TABLE', COLUMN_NAME_LIKE='%POSTAL%'
+Action: Add to Group of Objects: Add to GDPR sensitive objects
+Add Member Type='NAMEONLY', Replace Group Content='false', Object Group='GDPR Personal Data Sensitive Objects'","","GDP ","MSSQL ","MS SQL SERVER ","jdbc:guardium:sqlserver://10.221.192.30:53083;DatabaseName=GDP;CryptoProtocolVersion=TLSv1,TLSv1.1,TLSv1.2","MSSQL : MS SQL SERVER : 10.221.192.30 :  : GDP : 53083 :","10.221.192.30 ","53083 ","postal","dbo","","UserData"
